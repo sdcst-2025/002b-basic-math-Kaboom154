@@ -14,3 +14,14 @@ You may use either the ** operator or math.pow(x,y) for your exponents
 You may use either math.sqrt(x) or the exponent to the power of 0.5 for your square root
 
  '''
+
+import math
+
+a=5
+b=8
+
+A2=math.pow(a,2)
+B2=math.pow(b,2)
+C2=A2+B2
+c=round(math.sqrt(C2),5)
+print(c)
